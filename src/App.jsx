@@ -4,7 +4,7 @@ import ToDoList from "./ToDoList";
 
 const App = () => {
   // agar khi par likh kar khi dikhana chahte hai toh hooks ka use karna hi padega
-  // har input field event call karta hai
+  // har input field event call karta ha
 
   const [inputList, setInputList] = useState("");
   const [item, setItem] = useState([]); // array bna liye kyuki ab jo bhi user input field me likhega usko array me store kra ke dekhate rhega url par
